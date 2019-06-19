@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* интегрируем переменные с цветами */
+html {
+  font-size: 14px; }
+
+body {
+  background-color: #eef3f5;
+  color: #131313;
+  font-family: "Roboto", sans-serif; }
+
+.top-nav {
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 40px;
+}
+.top-nav_menu {
+	list-style: none;
+	padding: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.top-nav_menu li {
+	margin-right: 68px;
+}
+.logo {
+	width: 437px;
+	height: 66px;
+	margin-right: 5px;
+}
+a {
+	text-decoration: uppercase;
+	text-decoration: none;
+	color: #131313;
+	font-weight: 800;
+	font-size: 19px;
+}
+.left-sidebar {
+	
+	margin-top: 30px;
+}
+.left-sidebar_menu {
+	list-style: none;
+	padding: 0;
+	background-color: #fff;
+
+}
+
+
+.left-sidebar_menu li a {
+	text-decoration: none;
+	padding: 15px 29px;
+	color: #131313;
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+}
+.left-sidebar_menu li:hover {
+	background-color: #009adf;
+
+}
+.left-sidebar_menu li a:hover {
+	color: #fff;
+}
+.left-sidebar_object {
+	margin-top: 30px;
+	background-color: #fff;
+}
+.left-sidebar_object-description
